@@ -1,0 +1,78 @@
+body>
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First Name:</label>
+                    <input type="text" placeholder="First Name" name="fname">
+                </td>
+                <td>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" placeholder="Last Name" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" placeholder="Date of birth" name="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address">Address:</label>
+                    <textarea name="Address" rows="5" cols="50" placeholder=" Address" name="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone No:</label>
+                    <input type="number" placeholder="Phone Number" name="phoneno">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email id:</label>
+                    <input type="email" placeholder="Email id" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Eductaional Qualification">Educational Qualification:</label>
+                    <select>
+                        <option>Post Graduation</option>
+                        <option>Graduation</option>
+                        <option>12th</option>
+                        <option>10th</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Languages">Languages Known:</label>
+                    <input type="checkbox" value="Malayalam">Malayalam
+                    <input type="checkbox" value="Tamil">Tamil
+                    <input type="checkbox" value="Hindi">Hindi
+                    <input type="checkbox" value="English">English
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="resume">Resume:</label>
+                    <input type="file" placeholder="Email id" name="resume">
+                </td>
+                </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+            </table>
+        </table>
+    </body>
+</html>
