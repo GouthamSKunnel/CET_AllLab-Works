@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>Application form</title>
+<style>
+
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+h2 ,h4{text-align: center;}
+.center {
+  margin-left: auto;
+  margin-right: auto;}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+</style>
+</head>
+
+
+<body>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content">
+  
+   <h2> <u>Job Application</u></h2>
+<br>
+<h4>“I knew that if I failed I wouldn’t regret that, but I knew the one thing I might regret is not trying.” </h4>
+<br>
+<table class="center" >
+             <tr>
+                <td>
+                    <label for="fname">First Name:</label>
+                    <input type="text" placeholder="First Name" name="fname">
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" placeholder="Last Name" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" placeholder="Date of birth" name="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address">Address:</label>
+                    <textarea name="Address" rows="5" cols="50" placeholder=" Address" name="address"></textarea>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <label for="state">State:</label>
+                    <input type="text" placeholder="State" name="statename">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="district">District:</label>
+                    <input type="text" placeholder="district" name="districtname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone No:</label>
+                    <input type="number" placeholder="Phone Number" name="phoneno">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email id:</label>
+                    <input type="email" placeholder="Email id" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Eductaional Qualification">Educational Qualification:</label>
+                    <select>
+                        <option>Post Graduation</option>
+                        <option>Graduation</option>
+                        <option>12th</option>
+                        <option>10th</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Languages">Languages Known:</label>
+                    <input type="checkbox" value="java">java
+                    <input type="checkbox" value="c++">c++
+                    <input type="checkbox" value="python">python
+                    <input type="checkbox" value="node">node js
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="resume">Resume:</label>
+                    <input type="file" placeholder="resume" name="resume">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <input type="checkbox" value="declaration"> I here by declare that the above mentioned details are true to the best of my knowledge and belief
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+ 
+</table> 
+</div>
+
+
+</body>
+
+</html>
+        
