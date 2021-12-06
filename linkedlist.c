@@ -169,7 +169,7 @@ void delete_from_begin() {
 }
 
 void delete_from_loc(int pos){
-  struct node *t,*temp;
+  struct node *t=start,*temp;
   int i=1,n;
 
  while(i<pos-1){
