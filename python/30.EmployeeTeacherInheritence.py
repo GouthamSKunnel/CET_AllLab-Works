@@ -1,5 +1,5 @@
 class Employee:
-    emp_id_start = 10
+    emp_id_start = 100
 
     def __init__(self,name, salary, address):
         self.empp_id = self.emp_id_start
